@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    background-image: url('../imagery/photo-1710241426983-65a63acca518.jpg');
+    width: 100%;
+}
+
+#hero {
+    height: 718px;
+    background-image: url('../imagery/Screenshot\ 2025-01-13\ 132954.png');
+    background-size: cover;
+    width: 100%;
+}
+
+#sub-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: #3F3F3F95;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#stgorthodox-icon {
+    height: 100px;
+    width: auto;
+    padding-left: 40px;
+}
+
+#stgorthodox-title {
+    font-size: 22pt;
+    width: 229px;
+}
+
+nav {
+    padding-right: 40px;
+}
+
+nav, #nav-bar a {
+    color: white;
+}
+
+nav a {
+    font-size: 16pt;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #3F3F3F95;
+    color: white;
+}
+
+#address, #contact-card {
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+}
