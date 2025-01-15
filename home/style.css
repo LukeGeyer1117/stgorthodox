@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0px;
-    background-image: url('../imagery/photo-1710241426983-65a63acca518.jpg');
+    background-image: url('../imagery/background-opacitychange.png');
     width: 100%;
 }
 
@@ -40,15 +40,17 @@ body {
     justify-content: center;
 }
 
-#stgorthodox-icon {
+#stgorthodox-icon-nav, #stgorthodox-icon-footer {
     height: 100px;
     width: auto;
     padding-left: 40px;
 }
 
-#stgorthodox-title {
-    font-size: 22pt;
-    width: 229px;
+#stgorthodox-title-nav, #stgorthodox-title-footer {
+    font-size: 18pt;
+    width: 250px;
+    text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -65,7 +67,8 @@ nav a {
     padding-right: 8px;
 }
 
-#contact-info {
+#contact-info, #contact-info-footer {
+    font-family: "Vollkorn", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,10 +79,75 @@ nav a {
     color: white;
 }
 
-#address, #contact-card {
+#address, #contact-card, #address-footer, #contact-card-footer {
     font-size: 16pt;
+}
+
+h2, p, #schedule-scroll {
+    font-family: "Vollkorn", serif;
 }
 
 a {
     text-decoration: none;
+    font-family: "Vollkorn", serif;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome video {
+    width: 600px;
+    padding: 40px;
+}
+
+#welcome-words {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 40%;
+}
+
+#welcome-words h2 {
+    font-size: 24pt;
+    margin: 0px;
+}
+
+#welcome-words p {
+    font-size: 18pt;
+}
+
+#schedule {
+    display: flex;
+    flex-direction: column;
+    height: 686px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../imagery/newcathedral-darkened.png');
+    background-size: cover;
+    background-position:center;
+}
+
+#schedule-scroll {
+    color: white;
+    font-size: 18pt;
+}
+
+#month-dropdown-menu {
+    visibility: hidden;
+}
+
+footer {
+    background-color: #3F3F3F;
+}
+
+#footer-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
